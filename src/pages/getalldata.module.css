@@ -1,0 +1,43 @@
+header {
+  height: 10vh;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.total {
+  display: flex;
+  gap: 30px;
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.verified {
+  background-color: rgb(104, 207, 104);
+}
+.btn {
+}
+
+.notVerified {
+  background-color: rgb(232, 116, 116);
+}
+.innerContiner {
+  display: flex;
+  padding: 30px;
+  justify-content: space-evenly;
+  gap: 20px;
+  font-size: 1.3rem;
+}
+
+.innerContiner:hover {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
